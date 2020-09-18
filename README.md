@@ -1,5 +1,6 @@
 # Walk-Walk-Revolution
 
+I decided to 
 
 [Original Repo](https://github.com/lootrr/team-project-team7)
 
