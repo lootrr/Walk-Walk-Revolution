@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalkRunSession">
+
+    <Button
+        android:id="@+id/mockPageButton"
+        android:layout_width="67dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/mock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stop_btn"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <TextView
+        android:id="@+id/activity_distance_text2"
+        android:layout_width="259dp"
+        android:layout_height="77dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Steps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:id="@+id/activity_miles_number2"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="0 steps"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="259dp"
+        android:layout_height="77dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/timer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="205dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/routes_list_start_button_states"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/stop_btn"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_distance_text"
+        android:layout_width="259dp"
+        android:layout_height="77dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Distance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/activity_miles_number"
+        android:layout_width="239dp"
+        android:layout_height="52dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="0 miles"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
