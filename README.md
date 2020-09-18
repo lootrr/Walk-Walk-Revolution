@@ -1,6 +1,8 @@
 # Walk-Walk-Revolution
 
 
+[Original Repo](https://github.com/lootrr/team-project-team7)
+
 ## Installation
 
 Use git clone to download the files.
